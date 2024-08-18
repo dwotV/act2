@@ -1,13 +1,15 @@
 # Actividad 2
 Este proyecto implementa dos algoritmos para calcular el cambio mínimo utilizando un conjunto dado de denominaciones de monedas:
 
-Programación Dinámica: Emplea una técnica de memoización para encontrar la solución óptima, considerando todas las posibles combinaciones de monedas.
-Algoritmo Ávaro: Utiliza un enfoque greedy para seleccionar en cada paso la moneda de mayor valor posible que sea menor o igual al cambio restante.
+- Programación Dinámica: Emplea una técnica de memoización para encontrar la solución óptima, considerando todas las posibles combinaciones de monedas.
+- Algoritmo Ávaro: Utiliza un enfoque greedy para seleccionar en cada paso la moneda de mayor valor posible que sea menor o igual al cambio restante.
 
-Autores:
-Dael Chávez Ferreyra - A01771963
-Andrea Bahena Valdés - A01369019
-Fecha de Última Modificación: 17-AGO-2024
+# Autores:
+1. Dael Chávez Ferreyra - A01771963
+2. Andrea Bahena Valdés - A01369019
+
+# Fecha de Última Modificación
+17-AGO-2024
 
 ## Estructura del Código:
 dinamico(int cambio, vector<int> vec): Implementa el algoritmo de programación dinámica.
